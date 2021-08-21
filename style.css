@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background-image: url("images/background.png");
+    background-image: url("images/background.jpeg");
     background-color: rgb(213, 233, 252);
     text-align: center;
 }
@@ -59,21 +59,24 @@ a:hover {
     margin-left: 5%;
 }
 
-#header-1 {
-    margin-top: 70px;
+#headline {
+    margin-top: 80px;
 }
 
 .my-header {
     color: rgb(5, 58, 170);
-    border: 2px black
 }
 
 #group-photo {
     align-items: center;
+    width: fit-content;
 }
 
 .photo-format {
+    border: 5px solid black;
     border-radius: 30px;
+    width: 60%;
+    height: auto;
 }
 
 .box {
@@ -83,4 +86,13 @@ a:hover {
     border-radius: 10px;
     opacity: 50%;
     width: fit-content;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.grid-margin {
+    margin: 5px;
 }
