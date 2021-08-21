@@ -39,6 +39,18 @@ a:hover {
     color: rgb(213, 233, 252);
 }
 
+a.blue:link {
+    color: rgb(5, 58, 170);
+}
+
+a.blue:visited {
+    color: rgb(5, 58, 170);
+}
+
+a.blue:hover {
+    color: rgb(213, 233, 252);
+}
+
 .bar-left {
     text-align: left;
     margin-left: 10%;
