@@ -27,11 +27,6 @@ body {
     width: 100%
 }
 
-.bar-right {
-    text-align:right;
-    margin-right: 10%;
-}
-
 a:link {
     color: white;
 }
@@ -49,14 +44,19 @@ a:hover {
     margin-left: 10%;
 }
 
-.text-right {
+.bar-right {
     text-align:right;
-    margin-right: 5%;
+    margin-right: 10%;
 }
 
 .text-left {
     text-align: left;
     margin-left: 5%;
+}
+
+.text-right {
+    text-align:right;
+    margin-right: 5%;
 }
 
 #headline {
@@ -75,11 +75,11 @@ a:hover {
     height: auto;
 }
 
-.my-header {
+.blue-header {
     color: rgb(5, 58, 170);
 }
 
-.my-header:hover {
+.blue-header:hover {
     color: white;
 }
 
@@ -104,6 +104,7 @@ a:hover {
 }
 
 .info-text {
+    font-family: fantasy;
     padding: 2%;
     color: aliceblue;
     text-align: start;
@@ -112,13 +113,19 @@ a:hover {
 .name-text {
     font-size: 32px;
     font-weight: bold;
-    padding-bottom: 1%;
 }
 
 .major-text {
     font-size: 24px;
     font-weight: bold;
-    padding-bottom: 2%;
+    padding-bottom: 1%;
+}
+
+.header-text {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 1%;
+    padding-bottom: 0.5%;
 }
 
 .grid-2 {
