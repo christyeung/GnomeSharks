@@ -81,6 +81,13 @@ a:hover {
     height: auto;
 }
 
+.gnome-photo {
+    border-radius: 15px;
+    border: 3px solid goldenrod;
+    width: 10%;
+    height: auto;
+}
+
 .video {
     border-radius: 5px;
     width: 80%;
@@ -127,6 +134,40 @@ a:hover {
     width: 80%;
 }
 
+.text-box1 {
+    border: 5px dotted white;
+    background-color: rgb(164, 201, 245);
+    border-radius: 5px;
+    padding-left: 3%;
+    padding-right: 3%;
+    width: 80%
+}
+
+.text-box2 {
+    border: 5px dotted white;
+    background-color: rgb(138, 204, 221);
+    border-radius: 5px;
+    padding-left: 3%;
+    padding-right: 3%;
+    width: 80%
+}
+
+.gnome-button {
+    color: rgb(223, 25, 25);
+    border: 3px solid rgb(163, 26, 26);
+    background-color: rgb(252, 167, 181);
+    border-radius: 10px;
+    opacity: 75%;
+    width: fit-content;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.gnome-button:hover {
+    color: white;
+    background-color: rgb(223, 25, 25);;
+}
+
 .info-text {
     font-family: fantasy;
     padding: 2%;
@@ -147,6 +188,8 @@ a:hover {
 .header-text {
     font-size: 20px;
     font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
     padding-top: 1%;
 }
 
