@@ -3,11 +3,12 @@
     <head>
         <meta charset="UFT-8" />
         <title>The Gnome Sharks - Homepage</title>
+        <!-- Link to CSS file -->
         <link href="style.css" rel="stylesheet">
     </head>
 
     <body>
-
+        <!-- Navigation bar -->
         <div class="fixed-top">
             <div class="navbar">
                 <div class="bar-left">
@@ -19,16 +20,37 @@
             </div>
         </div>
 
+        <!-- Header of this page -->
         <div>
             <h1 class="headline">- Welcome to the Gnome Zone, We Give Out Gnome Loans -</h1>
         </div>
 
+        <!-- Group photo -->
         <div id="group-photo">
+            <!-- Hyperlink the photo to the about us page -->
             <a href="about.html" title="Know more about us!"> 
                 <img src="images/TheGnomeSharks.png" alt="our group picture" class="photo-format"/>
             </a>
         </div>
 
+        <!-- Prompt for the gnome generator -->
+        <h3 class="gnome-text">
+            Join us and get your Gnome of the Day!
+        </h3>
+ 
+        <!-- Button to generate a random gnome picture -->
+        <button id="my-button" class="gnome-button">
+             Get!
+        </button>
+
+        <div> <br> </div>
+
+        <!-- Place to put the gnome picture -->
+        <div id="my-gnome">
+            <img src="images/question-mark.jpg" class="gnome-photo"/>
+        </div>
+
+        <!-- Hyperlinks to the other 2 pages -->
         <div class="grid-2">
             <div class="grid-margin grid-right">
                 <center><h3 class="blue-header box">
@@ -46,20 +68,7 @@
             </div>
         </div>
 
-        <h3 class="header-text">
-            Join us and get your Gnome of the Day!
-        </h3>
- 
-        <button id="my-button" class="gnome-button">
-             Get!
-        </button>
-
-        <div> <br> </div>
-
-        <div id="my-gnome">
-            <img src="images/question-mark.jpg" class="gnome-photo"/>
-        </div>
-
+        <!-- Link to JS file -->
         <script src = "./index.js"></script>    
     </body>
 </html>

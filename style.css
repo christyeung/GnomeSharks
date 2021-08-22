@@ -164,7 +164,7 @@ a:hover {
 }
 
 .gnome-button:hover {
-    color: white;
+    color: rgb(252, 167, 181);
     background-color: rgb(223, 25, 25);;
 }
 
@@ -186,6 +186,12 @@ a:hover {
 }
 
 .header-text {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 1%;
+}
+
+.gnome-text {
     font-size: 20px;
     font-weight: bold;
     font-style: italic;
