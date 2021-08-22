@@ -59,7 +59,7 @@ a:hover {
     margin-right: 5%;
 }
 
-#headline {
+.headline {
     margin-top: 80px;
 }
 
@@ -73,6 +73,18 @@ a:hover {
     border-radius: 30px;
     width: 60%;
     height: auto;
+}
+
+.photo {
+    border-radius: 5px;
+    width: 80%;
+    height: auto;
+}
+
+.video {
+    border-radius: 5px;
+    width: 80%;
+    height: 250px;
 }
 
 .blue-header {
@@ -123,12 +135,12 @@ a:hover {
 }
 
 .name-text {
-    font-size: 32px;
+    font-size: 28px;
     font-weight: bold;
 }
 
 .major-text {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
     padding-bottom: 1%;
 }
@@ -140,16 +152,45 @@ a:hover {
     padding-bottom: 0.5%;
 }
 
+.dev-title {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 1%;
+}
+
+.dev-time {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.dev-text {
+    font-family: 'Courier New', Courier, monospace;
+}
+
 .grid-2 {
     display: grid;
     grid-template-columns: auto auto;
 }
 
-.grid-37 {
+.grid-46 {
     display: grid;
     grid-template-columns: 40% 60%;
 }
 
+.grid-55 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
 .grid-margin {
     margin: 5px;
+    align-self: center;
+}
+
+.grid-left {
+    justify-self: start;
+}
+
+.grid-right {
+    justify-self: end;
 }
