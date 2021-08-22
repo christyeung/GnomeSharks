@@ -23,6 +23,7 @@ body {
     padding-bottom: 10px;
 }
 
+/* fix the position for the navigation bar */
 .fixed-top {
     position: fixed;
     top: 0;
@@ -30,47 +31,57 @@ body {
     width: 100%
 }
 
+/* set the color of hyperlinks */
 a:link {
     color: white;
 }
 
+/* set the color of visited hyperlinks*/
 a:visited {
     color: white;
 }
 
+/* set the color of hyperlinks when hovered*/
 a:hover {
     color: rgb(213, 233, 252);
 }
 
+/* set the text-align for elements in navigation bar */
 .bar-left {
     text-align: left;
     margin-left: 10%;
 }
 
+/* set the text-align for elements in navigation bar */
 .bar-right {
     text-align:right;
     margin-right: 10%;
 }
 
+/* set the text-align for some text */
 .text-left {
     text-align: left;
     margin-left: 5%;
 }
 
+/* set the text-align for some text */
 .text-right {
     text-align:right;
     margin-right: 5%;
 }
 
+/* set the position of the headline to be lower than the navigation bar */
 .headline {
     margin-top: 80px;
 }
 
+/* format the group photo */
 #group-photo {
     align-items: center;
     width: fit-content;
 }
 
+/* set the general photo format */
 .photo-format {
     border: 5px solid black;
     border-radius: 30px;
@@ -78,12 +89,14 @@ a:hover {
     height: auto;
 }
 
+/* set a general photo format */
 .photo {
     border-radius: 5px;
     width: 80%;
     height: auto;
 }
 
+/* set the photo format for the gnome pictures */
 .gnome-photo {
     border-radius: 15px;
     border: 3px solid goldenrod;
@@ -91,20 +104,24 @@ a:hover {
     height: auto;
 }
 
+/* set the dimension format for videos */
 .video {
     border-radius: 5px;
     width: 80%;
     height: 300px;
 }
 
+/* set the color of text */
 .blue-header {
     color: rgb(5, 58, 170);
 }
 
+/* set the color of text when hovered */
 .blue-header:hover {
     color: white;
 }
 
+/* set the style for a box */
 .box {
     padding: 10px;
     border: 3px solid rgb(13, 32, 143);
@@ -113,22 +130,27 @@ a:hover {
     width: fit-content;
 }
 
+/* set the color for a box when hovered*/
 .box:hover {
     background-color: rgb(42, 59, 218);
 }
 
+/* set the color for a box when hovered with a hyperlink*/
 .box:hover a {
     color:  rgb(174, 202, 226) !important;
 }
 
+/* set the color for a box with a hyperlink*/
 .box a:link {
     color: rgb(5, 58, 170);
 }
 
+/* set the color for a box with a visited hyperlink*/
 .box a:visited {
     color: rgb(5, 58, 170);
 }
 
+/* set the style for a info box */
 .info-box {
     border: 5px dotted white;
     background-color:rgb(75, 58, 226);
@@ -136,6 +158,7 @@ a:hover {
     width: 80%;
 }
 
+/* set the style for a textbox */
 .text-box1 {
     border: 5px dotted white;
     background-color: rgb(164, 201, 245);
@@ -145,6 +168,7 @@ a:hover {
     width: 80%
 }
 
+/* set the style for a textbox */
 .text-box2 {
     border: 5px dotted white;
     background-color: rgb(138, 204, 221);
@@ -154,6 +178,7 @@ a:hover {
     width: 80%
 }
 
+/* set the style for the gnome button */
 .gnome-button {
     color: rgb(223, 25, 25);
     border: 3px solid rgb(163, 26, 26);
@@ -165,11 +190,13 @@ a:hover {
     font-weight: bold;
 }
 
+/* set the color for the gnome button when hovered*/
 .gnome-button:hover {
     color: rgb(252, 167, 181);
     background-color: rgb(223, 25, 25);;
 }
 
+/* set the style for text */
 .info-text {
     font-family: fantasy;
     padding: 2%;
@@ -177,22 +204,26 @@ a:hover {
     text-align: start;
 }
 
+/* set the style for name text */
 .name-text {
     font-size: 28px;
     font-weight: bold;
 }
 
+/* set the style for major text */
 .major-text {
     font-size: 20px;
     font-weight: bold;
 }
 
+/* set the style for header */
 .header-text {
     font-size: 20px;
     font-weight: bold;
     padding-top: 1%;
 }
 
+/* set the style for gnome text */
 .gnome-text {
     font-size: 20px;
     font-weight: bold;
@@ -201,54 +232,54 @@ a:hover {
     padding-top: 1%;
 }
 
+/* set the style for title of updates*/
 .dev-title {
     font-size: 20px;
     font-weight: bold;
     padding-bottom: 1%;
 }
 
+/* set the style for time of updates */
 .dev-time {
     font-size: 16px;
     font-weight: bold;
 }
 
+/* set sthe stype for text of updates */
 .dev-text {
     font-family: 'Courier New', Courier, monospace;
 }
 
+/* create 2 columns grid with auto width */
 .grid-2 {
     display: grid;
     grid-template-columns: auto auto;
 }
 
+/* create 2 columns grid with 40% and 60% width */
 .grid-46 {
     display: grid;
     grid-template-columns: 40% 60%;
 }
 
+/* create 2 columns grid with equal width */
 .grid-55 {
     display: grid;
     grid-template-columns: 50% 50%;
 }
 
+/* set grid margin and vertical */
 .grid-margin {
     margin: 5px;
     align-self: center;
 }
 
+/* set justification for grid */
 .grid-left {
     justify-self: start;
 }
 
+/* set justification for grid */
 .grid-right {
     justify-self: end;
-}
-
-.blue-button {
-    padding: 24px;
-    border: none;
-    background-color: rgb(15, 58, 247);
-    font-size: 15;
-    color: white;
-    font-weight: bold;
 }
