@@ -142,14 +142,12 @@ a:hover {
 .major-text {
     font-size: 20px;
     font-weight: bold;
-    padding-bottom: 1%;
 }
 
 .header-text {
     font-size: 20px;
     font-weight: bold;
     padding-top: 1%;
-    padding-bottom: 0.5%;
 }
 
 .dev-title {
@@ -193,4 +191,13 @@ a:hover {
 
 .grid-right {
     justify-self: end;
+}
+
+.blue-button {
+    padding: 24px;
+    border: none;
+    background-color: rgb(15, 58, 247);
+    font-size: 15;
+    color: white;
+    font-weight: bold;
 }

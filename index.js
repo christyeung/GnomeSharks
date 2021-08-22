@@ -1,13 +1,12 @@
-const myHeader = document.getElementById('my-header');
-const myDiv = document.getElementById('my-div');
+const myGnome = document.getElementById('my-gnome');
 const myButton = document.getElementById('my-button');
 
-function getRandomMood() {
-    const moods = ['😆', '😍', '😂', '😢', '🥳', '😡'];
-    const randomIndex = Math.floor(Math.random() * moods.length);
-    return moods[randomIndex];
+function getRandomGnome() {
+    const pics = ['gnome_01.jgp', 'gnome_02.jgp', 'gnome_03.jgp'];
+    const randomIndex = Math.floor(Math.random() * pics.length);
+    return '<img src="images/' + pics[randomIndex] + '"/>';
 }
 
 myButton.addEventListener('click', () => {
-    myDiv.innerHTML = getRandomMood();
+    myGnome.innerHTML = getRandomGnome();
 });
