@@ -39,18 +39,6 @@ a:hover {
     color: rgb(213, 233, 252);
 }
 
-a.blue:link {
-    color: rgb(5, 58, 170);
-}
-
-a.blue:visited {
-    color: rgb(5, 58, 170);
-}
-
-a.blue:hover {
-    color: rgb(213, 233, 252);
-}
-
 .bar-left {
     text-align: left;
     margin-left: 10%;
@@ -106,6 +94,18 @@ a.blue:hover {
 
 .box:hover {
     background-color: rgb(3, 28, 248);
+}
+
+.box:hover a {
+    color: rgb(213, 233, 252) !important;
+}
+
+.box a:link {
+    color: rgb(5, 58, 170);
+}
+
+.box a:visited {
+    color: rgb(5, 58, 170);
 }
 
 .info-box {
